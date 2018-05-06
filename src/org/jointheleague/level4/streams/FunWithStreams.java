@@ -11,6 +11,8 @@ public class FunWithStreams {
      */
     public static void print(Stream<Integer> numbers) {
         // TODO hint: use forEach
+    		String toPrint = "";
+    		numbers.forEach(item -> {});
         throw new UnsupportedOperationException("pending");
     }
     
